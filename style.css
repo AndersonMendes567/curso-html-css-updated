@@ -6,7 +6,7 @@ body
     margin: 0;
     width: 100%;
     font-family: Verdana;
-    font-size: 150%;
+    font-size: 120%;
     background-color: #fcfcfc;
 }
 
@@ -27,7 +27,7 @@ a.navbar-brand, a.nav-link{
 .photo{
     border: 2px solid #505050;
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
     display: flex;
     margin: 0 auto;
     margin-top: 25px;
@@ -55,7 +55,7 @@ a.navbar-brand, a.nav-link{
 #title
 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -147,6 +147,15 @@ img.post_image
     body{
         width: 100%;
         font-size: 200%;
+    }
+
+    a.navbar-brand, a.nav-link{
+        font-size: 120%;
+        margin-left: 8px;
+    }
+
+    h2{
+        font-size: 130%;
     }
 
     .content{
