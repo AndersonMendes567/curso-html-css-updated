@@ -1,0 +1,152 @@
+.icone{
+    border-radius: 50%;
+}
+body
+{
+    margin: 0;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 150%;
+    background-color: #fcfcfc;
+}
+
+a.navbar-brand{
+    font-size: 100%;
+}
+
+.content{
+    background-color: aquamarine;
+    max-width: 80%;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+.photo{
+    border: 2px solid #505050;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#sobre{
+    transition: .3s;
+}
+.sub-title{
+    margin-left: 25px;
+}
+#title,  .post-title 
+{
+    color: #505050;
+    margin: 25px 0 100px 0;
+}
+.sobre{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#title
+{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.post-title 
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post
+{
+    background: #fff;
+    padding: 15px;
+    border: 2px solid #302030;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.post_image
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+img.post_image
+{
+    width: 100%;
+    height: 100%;
+}
+
+.post_content
+{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.link
+{
+    color:#505050 ;
+    text-decoration: none;
+}
+
+.emotions
+{
+    padding: .5rem;
+    border: none;
+    border: 1.5px solid green;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.nave{
+    width: 100%;
+}
+.but,
+.emotions
+{
+    padding: .4rem;
+    margin: .4rem;
+    background: none;
+    border: none;
+}
+
+.liked, .loved:hover
+{
+    cursor: pointer;
+    opacity: .8;
+}
+.rodape{
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    margin-top: 30px;
+}
+.rodape a:hover{
+    color:darkblue;
+    text-decoration: none;
+}
+.lipo{
+    clear: both;
+}
+
+@media (max-width: 1100px){
+    body{
+        width: 100%;
+        font-size: 125%;
+    }
+    .content{
+        max-width: 95%;
+        position: absolute;
+        right: 2.5%;
+        left: 2.5%;
+    }
+}
